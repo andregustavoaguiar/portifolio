@@ -1,0 +1,199 @@
+@import "/css/global.css";
+@import "/css/header.css";
+@import "/css/introducao.css";
+@import "/css/experiencia.css";
+@import "/css/formacao.css";
+@import "/css/footer.css";
+
+
+
+
+
+
+
+
+/* logo e menu */
+
+/*
+
+
+
+.cursos{
+    
+    margin-top:10px;
+    display:flex;
+   
+	gap:20px ;
+    flex-wrap: wrap;
+  
+    align-items: start;
+}
+
+span{
+    padding:5px 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size:14px;
+    background-color: #fff;
+
+
+}
+
+.formacao{
+    background-color: rgb(37, 34, 34);
+  
+    margin-top:60px;
+    
+    padding-bottom: 60px;
+    display:grid;
+    grid-template-columns: 600px 80px 1fr;
+   
+    
+}
+
+.formacao > img{
+
+    justify-self: end;
+    margin-right: 20px;
+}
+.h2-formacao{
+     border: rgb(37, 34, 34) solid;
+    color:#000;
+    margin-top:60px;
+    margin-left: 150px;
+    font-size: 144px;
+ 
+    word-wrap: break-word;
+    align-self:start;
+}
+
+.p-formacao{
+  
+    margin-top: 70px;
+    margin-right: 340px;  
+    color: #a3a3a3;
+    padding:0;
+    grid-column: 3;
+  
+    
+}
+
+strong{
+    color:white;
+}
+
+.exp-formacao{
+    grid-column: 3;
+  
+display:grid;
+grid-template-columns: repeat(3, 150px);
+margin-top:40px;
+gap:80px;
+
+
+}
+.expexp-formacao{
+    background-color: #000;
+      border-radius:4px;
+      padding:10px;
+    width: 150px;
+    height: 150px;
+    display:grid;
+    grid-template-rows: 20px auto 40px;
+    position:relative;
+}
+
+.expexp-formacao::after{
+    content:"";
+ 
+    background-image: linear-gradient(#B6F829,#67DD0A);
+    width: 4px;
+    height:20px;
+    display: block;
+    position:absolute;
+    top: 42px;
+    left:-5px;
+}
+
+.curso-formacao{
+    margin-top: 10px;
+}
+
+.expexp-formacao > p{
+    align-self: start;
+    color: #a3a3a3;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+.cursos-formacao{
+ 
+    margin-top: 20px;
+    color: #a3a3a3;
+    grid-column: 3;
+    display:grid;
+    grid-template-columns: 520px 1fr;
+    line-height: 30px;
+    
+}
+
+.formacao > img{
+    margin-top: 58px;
+    grid-column: 2;
+}
+
+.formacao-titulo{
+    margin-top: 60px;
+
+    color: #a3a3a3;
+    grid-column: 3;
+}
+
+.cursos1{
+    
+}
+.cursos1 > p{
+    color:#fff;
+  
+}
+
+.cursos1 span{
+    background-color: rgb(37, 34, 34);
+    color: #a3a3a3;
+}
+
+.footer{
+    
+  
+    background-color: #000;
+    color: #a3a3a3;
+    display:grid;
+    grid-template-columns: 400px 500px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.footer > p{
+  
+     margin-left: 60px;
+     align-items: center;
+}
+
+.contato{
+
+    font-size: 20px;
+    color:#fff;
+    line-height: 40px;
+}
+.direitos{
+    font-size: 15px;
+    margin-top: 150px;
+}
+

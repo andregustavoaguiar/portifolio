@@ -1,0 +1,44 @@
+body{
+
+        font-family: "fira Sans", arial, sans-serif;
+        margin:0px;
+        color:#141414;
+       
+       
+
+}
+
+h1, h2, h3, p{ 
+    margin:0px;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+   
+}
+
+
+
+img{
+    max-width: 100%; /*imagem nao vai crescer infinitamente*/
+    height: auto; /*esse auto é por causa do tamanho predefinido no html de valor de imagem. assim nao esmaga a imagem*/
+    display:block; 
+}
+
+.subtitulo{
+    font-size:8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;  /* ele nao aumento mais que os 4 primeiros caracteres*/
+}
+
+@media (max-width:800px){
+    .subtitulo{
+        font-size: 3rem ;
+        text-transform: capitalize;
+        max-width: initial !important; /*ta assim porcausa do 5ch. sendo inicial passa pelo valor colocado anteriormente*/
+    }
+    }
